@@ -18,7 +18,7 @@ jobs:
 
       - run:
           name: Git push
-          command: git push --tags ${CIRCLE_SHA1}
+          command: git push --tags
 
       - run:
           name: Print the Current Time
