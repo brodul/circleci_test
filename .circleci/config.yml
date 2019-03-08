@@ -10,7 +10,7 @@ jobs:
       - add_ssh_keys
       - run:
           name: Git add keys
-          command: ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+          command: mkdir ~/.ssh && ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 
       - run:
           name: Install git
