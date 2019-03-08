@@ -14,7 +14,7 @@ jobs:
 
       - run:
           name: Git add keys
-          command: mkdir ~/.ssh && ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+          command: mkdir -p ~/.ssh && ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 
       - run:
           name: Greeting
