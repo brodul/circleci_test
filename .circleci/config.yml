@@ -18,7 +18,7 @@ jobs:
 
       - run:
           name: Git push
-          command: git push --tags
+          command: ssh-keyscan -H github.com >> ~/.ssh/known_hosts && git push --tags
 
       - run:
           name: Print the Current Time
