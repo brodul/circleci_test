@@ -9,7 +9,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "c3:b4:7b:4b:23:07:cc:a5:62:00:de:f1:93:19:43:f7"
+          - "c3:b4:7b:4b:23:07:cc:a5:62:00:de:f1:93:19:43:f7"
       - run:
           name: Install git
           command: apt-get update && apt-get install -y git
