@@ -20,7 +20,7 @@ jobs:
 
       - run:
           name: Greeting
-          command: git tag v1.0
+          command: git tag v1.1
 
       - run:
           name: Git push tags
