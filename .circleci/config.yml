@@ -20,7 +20,7 @@ jobs:
 
       - run:
           name: Greeting
-          command: git tag "$vRANDOM"
+          command: git tag "v$RANDOM"
 
       - run:
           name: Git push tags
