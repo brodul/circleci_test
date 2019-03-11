@@ -18,7 +18,7 @@ jobs:
 
       - run:
           name: Greeting
-          command: git tag ${CIRCLE_SHA1}
+          command: git tag v1.0
 
       - run:
           name: Git push tags
